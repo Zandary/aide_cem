@@ -38,6 +38,35 @@ a {
 .btnContainer {
   display: flex;
   flex-direction: column;
+  height: 80vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+}
+
+.btns > button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btnContainer > p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btnContainer > img {
+  width: 60%;
+}
+
+.normalTxt {
+  font-size: 16px !important;
+  font-weight: 400 !important;
 }
 
 .searchbar {
