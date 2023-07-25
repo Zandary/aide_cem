@@ -11,8 +11,8 @@ function App() {
     <Router>
       <div className="App">
       <Header />
-        <Routes>
-          <Route path='/article/:id' element={<Article />} />
+        <Routes> 
+          <Route path='/articles/:id' element={<Article />} />
           <Route path='/' element={<Platforms />} />
           <Route path='/article/nyvolako' element={<Home />} />
         </Routes>
