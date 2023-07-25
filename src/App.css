@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+body {
+  width: 100vw;
+  font-size: 14px !important;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+  cursor: pointer !important;
+}
+
+.header {
+  display: flex;
+  background-color: #cf3035;
+  height: 4vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchbar {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}

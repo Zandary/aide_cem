@@ -1,0 +1,424 @@
+{
+    "admin": {},
+    "article": [
+        {
+            "titre": "Quelques notions avant SUNUPAYE ?",
+            "numero": "1",
+            "contenu": [
+                {
+                    "image": "",
+                    "texte": [
+                        "- Un compte NY VOLAKO est identifié par un numéro de téléphone, ou autrement, un numéro de téléphone est attaché à un seul compte NY VOLAKO.",
+                        "- Un client particulier peut avoir plusieurs comptes NY VOLAKO mais identifiés respectivement par des numéros de téléphone différents.",
+                        "- Un client ne possédant pas un smartphone ou un téléphone fonctionnant avec Android peut avoir et utiliser un compte NY VOLAKO.",
+                        "- Un Client ayant déjà créé un compte NY VOLAKO mais qui n’a pas encore reçu sa clé secrète peut opérer NY VOLAKO auprès d’une agence CEM. Autrement dit, la non-réception des informations du compte via le mailing ne constitue pas un facteur bloquant aux opérations NY VOLAKO auprès d’une agence CEM.",
+                        "- Le format de téléphone utilisé dans toutes les plateformes NY VOLAKO doit être au format international : soit +261333770283 ou 00261333770283. Attention, il ne faut pas mettre 0 (zéro) entre le code zone 261 et les deux premiers chiffres identifiant l’opérateur téléphonique (33 ou 34 ou 32 ou 39)."
+                    ]
+                }
+            ]
+        },
+        {
+            "titre": "Que fait SUNUPAYE",
+            "numero": "2",
+            "contenu": [
+                {
+                    "image": "",
+                    "texte": [
+                        "SUNUPAYE est une des plateformes web du service numérique NY VOLAKO de la Caisse d’Epargne de Madagascar. Il s’agit d’une application dédiée au paiement de masse NY VOLAKO. Donc, un outil permettant d’effectuer un paiement périodique ou spontané d’une population appartenant à une entité, entreprise, société ou organisation ayant contractée avec la Caisse d’Epargne de Madagascar pour une rémunération bien définie."
+                    ]
+                }
+            ]
+        },
+        {
+            "titre": "Comment ouvrir SUNUPAYE ?",
+            "numero": "3",
+            "contenu": [
+                {
+                    "image": "",
+                    "texte": [
+                        "SUNUPAYE est une application web, donc elle s’ouvre à partir d’un navigateur web. Il est recommandé pour la CEM d’utiliser le navigateur Google chrome pour ceux qui utilisent des ordinateurs tournant avec un système d’exploitation windows comme windows 10, 8, 7, vista. Et ceux qui travaillent dans un environnement de distribution LINUX, comme UBUNTU ou Linux Lite, il est recommandé d’utiliser Mozilla firefox.",
+                        "A partir du navigateur, saisir l’adresse URL https://sunupaye.cem-admin.com/",
+                        "La page d’accueil de SUNUPAYE se présente comme dans la figure suivante :"
+                    ]
+                },
+                {
+                    "image": "1",
+                    "texte": []
+                }
+            ]
+        },
+        {
+            "titre": "Quelles sont les fonctionnalités présentes dans SUNUPAYE ?",
+            "numero": "4",
+            "contenu": [
+                {
+                    "sousTitre": "",
+                    "image": "",
+                    "texte": [
+                        "SUNUPAYE fonctionne avec trois (03) modules :",
+                        "Module « ADMINISTRATION » :",
+                        "- Création d’une société",
+                        "- Virement en monnaie électronique sur le compte SUNUPAYE de la société",
+                        "- Suivi du compte en monnaie électronique de la société",
+                        "Module « GESTION EMPLOYE » :",
+                        "-Enrôler un employé : qui consiste à affecter un compte NY VOLAKO d’un employé à sa société (un par un – one by one)",
+                        "-Enrôler un employé en masse : qui consiste à affecter, en une seule manipulation, plusieurs comptes NY VOLAKO à une société",
+                        "-Consulter la liste des employés affectés à une société",
+                        "Module « GESTION COMPTE EMPLOYE » :",
+                        "-Créditer un compte : qui consiste à créditer un compte NY VOLAKO par le compte SUNUPAYE de la société",
+                        "-Créditer un compte en masse : qui consiste à créditer plusieurs comptes NY VOLAKO par le compte SUNUPAYE de la société en une seule manipulation.",
+                        "- Historique des transactions",
+                        "Ces différents modules se présentent dans l’application comme dans la figure suivante"
+                    ]
+                },
+                {
+                    "image": "2"
+                }
+            ]
+        },
+        {
+            "titre": "Qui peut utiliser SUNUPAYE ?",
+            "numero": "5",
+            "contenu": [
+                {
+                    "sousTitre": "",
+                    "image": "",
+                    "texte": [
+                        "Techniquement, c’est l’administrateur de la plateforme qui assigne les comptes utilisateurs. Il appartient  à cet effet, au Service de la Transformation Numérique de créer les utilisateurs dans SUNUPAYE.",
+                        "Pour la CEM, les utilisateurs dépendent de l’organisation interne à adopter, mais les tâches sont déjà décrites dans le paragraphe précédent « Quelles sont les fonctionnalités présentes dans SUNUPAYE ? ». Néanmoins, les acteurs concernés dans SUNUPAYE peuvent être:",
+                        "- L’équipe support du Centre de Service Clientèle (CSC) de la DMPR",
+                        "- L’équipe du service de la trésorerie de la DAF",
+                        "- L’équipe du service de l’administration du personnel de la DRH",
+                        "- L’équipe du service de la transformation numérique de la DSINT",
+                        "- Les agences."
+                    ]
+                }
+            ]
+        },
+        {
+            "titre": "Comment interagit SUNUPAYE avec la plateforme web NY VOLAKO ?",
+            "numero": "6",
+            "contenu": [
+                {
+                    "image": "",
+                    "texte": [
+                        "Le schéma ci-dessous illustre l’interaction entre les deux plateformes SUNUPAYE et NY VOLAKO"
+                    ]
+                },
+                {
+                    "image": "3"
+                }
+            ]
+        },
+        {
+            "titre": "Comment enrôler un employé un par un dans SUNUPAYE ?",
+            "numero": "7",
+            "contenu": [
+                {
+                    "sousTitre": "",
+                    "image": "",
+                    "texte": [
+                        " Pour rappel, « enrôler un employé » consiste à affecter un compte NY VOLAKO d’un employé à la société qui le rémunère. Dans ce cas, quelques règles de gestion s’imposent :",
+                        "- Un employé titulaire d’un compte NY VOLAKO ne peut être enrôlé qu’une seule fois à une société.",
+                        "- Un employé enrôlé peut ne pas être crédité.",
+                        "- L’enrôlement d’un employé non attaché à un compte NY VOLAKO est impossible.",
+                        "- Avant l’enrôlement, l’initiateur doit s’assurer que le compte NY VOLAKO attaché au numéro de téléphone existe, valide et active.",
+                        "- L’enrôlement d’un compte NY VOLAKO dans SUNUPAYE s’effectue à partir du menu GESTION EMPLOYE / ENROLER UN EMPLOYE",
+                        "- Ce menu ramène directement à la liste des employés déjà enrôlés, comme présente la figure suivante :"
+                    ]
+                },
+                {
+                    "image": "4",
+                    "texte": [
+                        "Dans la zone A, l’initiateur peut effectuer des recherches de comptes NY VOLAKO à partir du prénom ou le nom du titulaire.",
+                        "Pour enrôler un employé, cliquer sur le lien « Enrôler un employé » de la zone B. Ce lien mène vers la recherche du N° de téléphone rattaché à un compte NY VOLAKO comme présente la figure ci-dessous"
+                    ]
+                },
+                {
+                    "image": "5",
+                    "texte": [
+                        "Ici, l’initiateur est invité à saisir le Numéro de téléphone rattaché au compte NY VOLAKO. Le clic sur le bouton « Rechercher » permet d’avoir les informations concernant l’employé à enrôler"
+                    ]
+                },
+                {
+                    "image": "6",
+                    "texte": [
+                        "Pour finaliser l’enrôlement, cliquer sur le bouton « Enregistrer »"
+                    ]
+                }
+            ]
+        },
+        {
+            "titre": "Comment enrôler des employés en masse dans SUNUPAYE ?",
+            "numero": "8",
+            "contenu": [
+                {
+                    "image": "",
+                    "texte": [
+                        "Pour rappel, enrôler des employés en masse consiste à affecter plusieurs comptes NY VOLAKO des employés à la société qui les rémunère.",
+                        "L’opérateur ou l’initiateur doit à cet effet, utiliser le fichier CSV qui s’ouvre à partir d’Excel portant la caractéristique suivante :"
+                    ]
+                },
+                {
+                    "image": "7",
+                    "texte": [
+                        "Pour créer ou réutiliser ce fichier :",
+                        "- Ouvrir le fichier enrolement_masse_employe_sunupaye.csv",
+                        "- Supprimer les données existantes de la colonne A.",
+                        "- Copier/coller ou saisir le numéro de téléphone attaché au compte NY VOLAKO de l’employé à la colonne A du fichier. Normalement, le format des cellules après saisie change automatiquement au format scientifique comme affiché ci-dessous."
+                    ]
+                },
+                {
+                    "image": "8",
+                    "texte": [
+                        "- Pour changer le format, clic droit sur la colonne A / Format de cellule / Dans l’onglet nombre choisir spécial / zip code. Comme dans la figure ci-dessous"
+                    ]
+                },
+                {
+                    "image": "9",
+                    "texte": [
+                        "- L’affichage des numéros de téléphone devient plus lisible comme présente dans la figure suivante :"
+                    ]
+                },
+                {
+                    "image": "10",
+                    "texte": [
+                        "-Après la vérification visuelle du contenu du fichier, sauvegarder le fichier par la composition des touches CTRL + S, ou à partir du menu Fichier / Enregistrer. Une boîte de confirmation s’ouvrira pour demander si l’opérateur souhaite garder le format en CSV."
+                    ]
+                },
+                {
+                    "image": "11",
+                    "texte": [
+                        "- Cliquer sur le bouton « Oui »",
+                        "- Fermer le fichier enrolement_masse_employe_sunupaye.csv",
+                        "- Après la demande de fermeture du fichier, il est bien possible que Microsoft Excel demande de nouveau à enregistrer le fichier et affiche la boîte de dialogue suivante :"
+                    ]
+                },
+                {
+                    "image": "12",
+                    "texte": [
+                        "- Le clic sur le bouton « Enregistrer » emmène à afficher l’emplacement du fichier dans l’ordinateur :"
+                    ]
+                },
+                {
+                    "image": "13",
+                    "texte": [
+                        "- Il est recommandé que l’opérateur place le fichier dans un nouveau répertoire sinon il peut également remplacer le fichier déjà existant. Pour ce dernier cas, après le clic sur le bouton « Enregistrer », une nouvelle boîte de dialogue s’affiche pour demander une confirmation du remplacement du fichier."
+                    ]
+                },
+                {
+                    "image": "14",
+                    "texte": [
+                        "- Le clic sur le bouton « Oui » ramène la nouvelle boîte de confirmation suivante :"
+                    ]
+                },
+                {
+                    "image": "15",
+                    "texte": [
+                        "- Le clic sur le bouton « Oui » ferme le fichier enrolement_masse_employe_sunupaye.csv",
+                        "- Dans la plateforme SUNUPAYE, diriger vers le menu GESTION EMPLOYE / ENROLER EMPLOYE PAR LOT, la page suivante s’affiche"
+                    ]
+                },
+                {
+                    "image": "16",
+                    "texte": [
+                        "- Cliquer sur le bouton « Choose file » et choisir l’emplacement du fichier enrolement_masse_employe_sunupaye.csv et l’ouvrir."
+                    ]
+                },
+                {
+                    "image": "17",
+                    "texte": [
+                        "- Cliquer sur le bouton « Charger le fichier »",
+                        "- En cas de succès, la page récapitulant le contenu du fichier s’affiche."
+                    ]
+                },
+                {
+                    "image": "18",
+                    "texte": [
+                        "Interprétation de cette page :"
+                    ]
+                },
+                {
+                    "image": "19",
+                    "texte": [
+                        "- Cliquer sur le bouton « Enregistrer » pour enrôler seulement la liste des téléphones corrects. Ou  cliquer sur « Annuler » et réviser le contenu du fichier enrolement_masse_employe_sunupaye.csv et refaire toute l’opération de ce paragraphe 8.",
+                        "- Après le clic du bouton « Enregistrer », une page de récapitulation s’affiche de nouveau"
+                    ]
+                },
+                {
+                    "image": "20",
+                    "texte": [
+                        "- L’opérateur pourra vérifier la liste des employés enrôlés dans le menu LISTE DES EMPLOYES."
+                    ]
+                }
+            ]
+        },
+        {
+            "titre": "Comment créditer un compte NY VOLAKO un par un dans SUNUPAYE ?",
+            "numero": "9",
+            "contenu": [
+                {
+                    "image": "",
+                    "texte": [
+                        "IPour créditer un compte NY VOLAKO dans SUNUPAYE, il faut s’assurer d’abord que, le numéro de téléphone, identifiant du compte NY VOLAKO, appartient à un employé enrôlé (voir comment enrôler un employé dans SUNUPAYE).",
+                        "Créditer un compte NY VOLAKO dans SUNUPAYE s’effectue à partir du menu GESTION CARTE EMPLOYES  / CREDITER UNE CARTE. Et la page suivante s’affiche"
+                    ]
+                },
+                {
+                    "image": "21",
+                    "texte": [
+                        "Ici, l’initiateur est invité à saisir le Numéro de téléphone rattaché au compte NY VOLAKO d’un employé déjà enrôlé. Le clic sur le bouton « Rechercher » permet d’avoir les informations concernant le compte  NY VOLAKO à créditer comme présente dans la figure ci-dessous"
+                    ]
+                },
+                {
+                    "image": "22",
+                    "texte": [
+                        "C’est dans ce champ Montant que l’initiateur saisi le montant à créditer sur le compte NY VOLAKO de l’employé. Une boîte de confirmation s’affiche après le clic sur le bouton « Valider »"
+                    ]
+                },
+                {
+                    "image": "23",
+                    "texte": [
+                        "Le clic sur le bouton « Oui » finalise l’opération et un SMS de notification est envoyé au téléphone identifiant du compte NY VOLAKO. Egalement, SUNUPAYE affiche une notification mentionnant la réussite de l’opération."
+                    ]
+                },
+                {
+                    "image": "24",
+                    "texte": []
+                }
+            ]
+        },
+        {
+            "titre": "Comment créditer des comptes NY VOLAKO par lot dans SUNUPAYE ?",
+            "numero": "10",
+            "contenu": [
+                {
+                    "image": "",
+                    "texte": [
+                        "Pour rappel, créditer des comptes NY VOLAKO par lot consiste à créditer plusieurs comptes NY VOLAKO des employés de la société qui les rémunère en une seule opération.",
+                        "L’opérateur ou l’initiateur doit à cet effet, utiliser le fichier CSV qui s’ouvre à partir d’Excel portant la caractéristique suivante :"
+                    ]
+                },
+                {
+                    "image": "25",
+                    "texte": [
+                        " Pour créer ou réutiliser ce fichier :",
+                        "- Ouvrir le fichier crediter_masse_employe_sunupaye.csv",
+                        "- Supprimer les données existantes de la colonne A.",
+                        "- Copier/coller ou saisir les informations suivantes à la colonne A du fichier : Le numéro de téléphone attaché au compte NY VOLAKO, « ; », le montant à créditer sur le compte. La figure cidessous illustre le format de la saisie."
+                    ]
+                },
+                {
+                    "image": "26",
+                    "texte": [
+                        "- Après la vérification visuelle du contenu du fichier, sauvegarder le fichier par la composition des touches CTRL + S, ou à partir du menu Fichier / Enregistrer. Une boîte de confirmation s’ouvrira pour demander si l’opérateur souhaite garder le format en CSV."
+                    ]
+                },
+                {
+                    "image": "27",
+                    "texte": [
+                        "- Cliquer sur le bouton « Oui »",
+                        "- Fermer le fichier crediter_masse_employe_sunupaye.csv",
+                        "- Après la demande de fermeture du fichier, il est bien possible que Microsoft Excel demande de nouveau à enregistrer le fichier et affiche la boîte de dialogue suivante :"
+                    ]
+                },
+                {
+                    "image": "28",
+                    "texte": [
+                        "- Le clic sur le bouton « Enregistrer » emmène à afficher l’emplacement du fichier dans l’ordinateur :"
+                    ]
+                },
+                {
+                    "image": "29",
+                    "texte": [
+                        "- Il est recommandé que l’opérateur place le fichier dans un nouveau répertoire sinon il peut également remplacer le fichier déjà existant. Pour ce dernier cas, après le clic sur le bouton « Enregistrer », une nouvelle boîte de dialogue s’affiche pour demander une confirmation de  remplacement du fichier."
+                    ]
+                },
+                {
+                    "image": "30",
+                    "texte": [
+                        "- Le clic sur le bouton « Oui » ramène la nouvelle boîte de confirmation suivante :"
+                    ]
+                },
+                {
+                    "image": "31",
+                    "texte": [
+                        "- Le clic sur le bouton « Oui » ferme le fichier crediter_masse_employe_sunupaye.csv",
+                        "- Dans la plateforme SUNUPAYE, diriger au menu GESTION CARTE EMPLOYE / CREDITER CARTE PAR LOT, la page suivante s’affiche"
+                    ]
+                },
+                {
+                    "image": "32",
+                    "texte": [
+                        "- Cliquer sur le bouton « Choose file » et choisir l’emplacement du fichier crediter_masse_employe_sunupaye.csv et l’ouvrir."
+                    ]
+                },
+                {
+                    "image": "33",
+                    "texte": [
+                        "- Cliquer sur le bouton « Charger le fichier ».",
+                        "- En cas de succès, la page récapitulant le contenu du fichier s’affiche."
+                    ]
+                },
+                {
+                    "image": "34",
+                    "texte": [
+                        "- Cliquer sur le bouton « Valider » pour créditer les comptes NY VOLAKO, seulement la liste des comptes à insérer. Ou cliquer sur « Retour » et réviser le contenu du fichier crediter_masse_employe_sunupaye.csv et refaire toute l’opération de ce paragraphe 10.",
+                        "- Après le clic du bouton « Valider », une page de récapitulation s’affiche de nouveau"
+                    ]
+                },
+                {
+                    "image": "35",
+                    "texte": [
+                        "- LDes SMS notifiant les comptes crédités sont envoyés aux numéros téléphones des comptes NY VOLAKO concernés.",
+                        "- L’opérateur pourra vérifier la liste des comptes NY VOLAKO crédités dans le menu HISTORIQUE DES TRANSACTIONS."
+                    ]
+                }
+            ]
+        },
+        {
+            "titre": "Comment visualiser l’historique des transactions dans SUNUPAYE? .",
+            "numero": "11",
+            "contenu": [
+                {
+                    "sousTitre": "",
+                    "image": "",
+                    "texte": [
+                        "Pour des fins de contrôles ou audits, il est bien possible de visualiser l’historique des transactions dans SUNUPAYE à partir du menu GESTION CARTES EMPLOYES / HISTORIQUE DES TRANSACTIONS."
+                    ]
+                },
+                {
+                    "image": "36",
+                    "texte": [
+                        "La zone A est dédiée pour la recherche des transactions entre deux dates. Par défaut, ces champs sont renseignés par la date du jour.",
+                        "La zone B permet d’exporter le résultat au format PDF."
+                    ]
+                }
+            ]
+        },
+        {
+            "titre": "Comment s’organiser pour exploiter SUNUPAYE ?",
+            "numero": "12",
+            "contenu": [
+                {
+                    "image": "",
+                    "texte": [
+                        "Il n’appartient pas au Service de la Transformation Numérique de la DSINT de mettre en place un Organisation au niveau de la CEM ni d’imposer une organisation par rapport au système SUNUPAYE, mais la maitrise de l’outil permettra de proposer deux scenarii sur lesquels un choix peut s’imposer."
+                    ]
+                },
+                {
+                    "image": "37",
+                    "texte": [
+                        "La zone B permet d’exporter le résultat au format PDF."
+                    ]
+                },
+                {
+                    "image": "38",
+                    "texte": [
+                        "Le choix de scénario ou d’en adopter un nouveau est laissé au soin du service de l’organisation, mais en attendant"
+                    ]
+                }
+            ]
+        }
+    ]
+}
