@@ -1,7 +1,10 @@
 .App {
+  display: flex;
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
+  flex-direction: column;
+  align-items: center;
 }
 
 body {
@@ -23,17 +26,7 @@ a {
   cursor: pointer !important;
 }
 
-.header {
-  display: flex;
-  background-color: #cf3035;
-  height: 4vh;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
+
 
 .btnContainer {
   display: flex;
@@ -72,4 +65,33 @@ a {
 .searchbar {
   margin-top: 10%;
   margin-bottom: 10%;
+}
+
+.form-group > input {
+  text-align: center;
+}
+
+/* header styles */
+.mainIcon {
+  width: 7%;
+}
+
+.title {
+  color: #cf3034;
+  width: 75%;
+}
+
+.header {
+  margin-top: 1vh;
+  border-radius: 4px;
+  display: flex;
+  /* background-color: #cf3035; */
+  height: 6vh;
+  width: 109%;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  border: 1px solid #e56b6e;
 }

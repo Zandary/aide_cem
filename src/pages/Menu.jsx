@@ -8,10 +8,12 @@ const Menu = () => {
   return (
     <div className="list-group rounded">
       {articles.map((article) => (
-        <Link key={article.numero} to={`/articles/${article.numero}`}>
-          <div className="list-group-item">
-            {article.numero} - {article.titre}
-          </div>
+        <Link
+          className="list-group-item"
+          key={article.numero}
+          to={`/articles/${article.numero}`}
+        >
+          {article.numero} - {article.titre}
         </Link>
       ))}
     </div>
