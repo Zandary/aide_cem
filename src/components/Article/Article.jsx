@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import data from "../../data.json";
 
-const Article = () => {
+const Article = (props) => {
   const { id } = useParams();
 
   const article = data.article.find((a) => a.numero === id);

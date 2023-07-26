@@ -21,7 +21,7 @@ const Platforms = () => {
         </button>
         <button className="btn btn-danger">
           <Link to={`/article/sunupay`}>
-            <div>SUNUPAY</div>
+            <div>SunuPay</div>
           </Link>
         </button>
       </div>
