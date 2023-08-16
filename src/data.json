@@ -1,399 +1,439 @@
 {
-    "admin":{
-      
+  "article": [
+    {
+      "titre": "INTRODUCTION",
+      "numero": "I",
+      "contenu": [
+        {
+          "sousTitre": "",
+          "image": "",
+          "texte": [
+            "Bienvenu dans la plateforme distributeur ny volako avec la Caisse d’Epargne de Madagascar. Cemanuel d’utilisation est conçu spécialement pour vous, car vous êtes désormais parmi les distributeurs du service ny volako.",
+            "Ce manuel permet à l’utilisateur, notamment ceux des distributeurs d’accéder à la connaissancede l’environnement de la plateforme monétique « ny volako », mais également d’en faire un guide adapté à son contexte et à sa qualification, afin d’assurer, la qualité de leurs services, la bonne pratique ainsi que le suivi du processus d’exploitation. Le présent document se veut, donc, un outil mis à la disposition de tous professionnels voulant offrir le service « ny volako » en tant que distributeur. Il pourra également intéresser ceux qui souhaitent mieux connaître les processus et son fonctionnement, pour mieux servir le client du service financier numérique « ny volako »."
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": ""
+        }
+      ]
     },
-    "article":[
-      {
-        "titre":"INTRODUCTION",
-        "numero":"I",
-        "contenu":[
-          {
-            "sousTitre":"",
-            "image":"",
-            "texte":[
-              "Bienvenu dans la plateforme distributeur ny volako avec la Caisse d’Epargne de Madagascar. Cemanuel d’utilisation est conçu spécialement pour vous, car vous êtes désormais parmi les distributeurs du service ny volako.",
-              "Ce manuel permet à l’utilisateur, notamment ceux des distributeurs d’accéder à la connaissancede l’environnement de la plateforme monétique « ny volako », mais également d’en faire un guide adapté à son contexte et à sa qualification, afin d’assurer, la qualité de leurs services, la bonne pratique ainsi que le suivi du processus d’exploitation. Le présent document se veut, donc, un outil mis à la disposition de tous professionnels voulant offrir le service « ny volako » en tant que distributeur. Il pourra également intéresser ceux qui souhaitent mieux connaître les processus et son fonctionnement, pour mieux servir le client du service financier numérique « ny volako »."
-            ]
+    {
+      "titre": "OBJECTIFS DE CE MANUEL",
+      "numero": "II",
+      "contenu": [
+        {
+          "sousTitre": "",
+          "image": "",
+          "texte": [
+            "La production de ce manuel utilisateur a pour but de donner une vision globale de la plateforme distributeur, ainsi que d’aborder toutes les manipulations nécessaires dans la pratique, afin de faciliter son utilisation. D’autres objectifs aussi est de s’étendre vers la satisfaction et l’instauration des assurances chez les utilisateurs car ce manuel représente un bon outil d’aide et contribue également à l’atteinte des objectifs de l’offre du service « ny volako »."
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "titre": "QU’EST-CE QU’UN DISTRIBUTEUR DU SERVICE NY VOLAKO?",
+      "numero": "III",
+      "contenu": [
+        {
+          "sousTitre": "",
+          "image": "",
+          "texte": [
+            "Un distributeur « ny volako » est une personne morale ou physique qui contracte avec la CEM pour offrir son service financier numérique à une large clientèle. Un distributeur est donc apte à effectuer des opérations qui sont présentes dans les agences CEM. Il peut être présenté sous forme d’un Kiosk, un magasin ou même un shop dédié.",
+            "Un distributeur sera identifié par un code distributeur, et fonctionne avec des utilisateurs, qui joueront le rôle de caissiers au niveau du distributeur. Ces utilisateurs seront identifiés par des comptes utilisateurs qui se matérialisent par un « login » et un « mot de passe »."
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": {
+            "rang": 1,
+            "nom": 1
           },
-          {
-            "sousTitre":"",
-            "image":""
+          "texte": [
+            "Ces comptes seront créés par l’administrateur de la plateforme « ny volako » au sein de la CEM.",
+            "Les comptes utilisateurs existants dans la plateforme de distribution sont :",
+            "- Compte utilisateur pour un responsable de distributeur",
+            "- Compte utilisateurs pour un ou plusieurs guichets ou caissiers"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "OUTILS DE TRAVAIL ET SECURITE DU COMPTE",
+      "numero": "IV",
+      "contenu": [
+        {
+          "sousTitre": "",
+          "image": "",
+          "texte": [
+            "Les comptes pour les responsables et les utilisateurs de la plateforme distributeur « ny volako » sont utilisés uniquement pour accéder dans la plateforme distributeur.",
+            "En effet, la plateforme est un site internet accessible à partir des navigateurs web, de préférence google chrome à partir de la version 73. Et le matériel informatique à utiliser peut être un ordinateur, une tablette ou un smartphone fonctionnant avec Android avec un écran minimum de 5 pouces pour une visualisation optimale."
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": {
+            "rang": 1,
+            "nom": 2
           }
-        ]
-      },
-      {
-        "titre":"OBJECTIFS DE CE MANUEL",
-        "numero":"II",
-        "contenu":[
-          {
-            "sousTitre":"",
-            "image":"",
-            "texte":[
-              "La production de ce manuel utilisateur a pour but de donner une vision globale de la plateforme distributeur, ainsi que d’aborder toutes les manipulations nécessaires dans la pratique, afin de faciliter son utilisation. D’autres objectifs aussi est de s’étendre vers la satisfaction et l’instauration des assurances chez les utilisateurs car ce manuel représente un bon outil d’aide et contribue également à l’atteinte des objectifs de l’offre du service « ny volako »."
-            ]
+        }
+      ]
+    },
+    {
+      "titre": "QUELQUES ETAPES POUR ACCEDER DANS LA PLATEFORME",
+      "numero": "V",
+      "contenu": [
+        {
+          "sousTitre": "",
+          "image": "",
+          "texte": [
+            "- Une fois le distributeur créé, vous aurez automatiquement un e-mail, contenant le lien sécurisé de « ny volako », votre login ainsi qu’un mot de passe par défaut.",
+            "- Le message dans votre e-mail se présente comme ci-dessous"
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": {
+            "rang": 1,
+            "nom": 3
           },
-          {
-            "sousTitre":"",
-            "image":""
+          "texte": [
+            "- A ce stade, vous êtes invités à ouvrir votre boite e-mail.",
+            "- Cliquez sur ce lien et vous accédez directement dans l’interface du distributeur « ny volako »."
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": {
+            "rang": 2,
+            "nom": 4
+          },
+          "texte": [
+            "- Revenir dans votre boite à mail et sélectionner le login ou « identifiant » fourni par le système et le copier et coller à l’endroit pour le login.",
+            "Puis refaire la même action pour copier le mot de passe, et le coller à l’endroit pour le mot de passe.",
+            "Normalement vous serez invité à changer votre mot de passe dès votre première connexion dans la plateforme, et vous le changez avec votre propre mot de passe.",
+            "Vous devez faire attention de ne pas perdre, d’oublier ou de communiquer à une tierce personne votre login et votre mot de passe. Il est également conseillé d’utiliser le mot de passe qui vous est familier."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "PRESENTATION DE L’INTERFACE DE LA PLATEFORME DISTRIBUTEUR « NY VOLAKO »ORME",
+      "numero": "VI",
+      "contenu": [
+        {
+          "sousTitre": "",
+          "image": {
+            "rang": 1,
+            "nom": 5
           }
-        ]
-      },
-      {
-        "titre":"QU’EST-CE QU’UN DISTRIBUTEUR DU SERVICE NY VOLAKO?",
-        "numero":"III",
-        "contenu":[
-          {
-            "sousTitre":"",
-            "image":"",
-            "texte":[
-              "Un distributeur « ny volako » est une personne morale ou physique qui contracte avec la CEM pour offrir son service financier numérique à une large clientèle. Un distributeur est donc apte à effectuer des opérations qui sont présentes dans les agences CEM. Il peut être présenté sous forme d’un Kiosk, un magasin ou même un shop dédié.",
-              "Un distributeur sera identifié par un code distributeur, et fonctionne avec des utilisateurs, qui joueront le rôle de caissiers au niveau du distributeur. Ces utilisateurs seront identifiés par des comptes utilisateurs qui se matérialisent par un « login » et un « mot de passe »."
-            ]
-          },
-          {
-            "sousTitre":"",
-            "image":"1",
-            "texte":[
-              "Ces comptes seront créés par l’administrateur de la plateforme « ny volako » au sein de la CEM.",
-              "Les comptes utilisateurs existants dans la plateforme de distribution sont :",
-              "- Compte utilisateur pour un responsable de distributeur",
-              "- Compte utilisateurs pour un ou plusieurs guichets ou caissiers"
-            ]
+        },
+        {
+          "numero": "1",
+          "sousTitre": "PRESENTATION DES RUBRIQUES D’OPERATIONS",
+          "image": {
+            "rang": 2,
+            "nom": 6
           }
-        ]
-      },
-      {
-        "titre":"OUTILS DE TRAVAIL ET SECURITE DU COMPTE",
-        "numero":"IV",
-        "contenu":[
-          {
-            "sousTitre":"",
-            "image":"",
-            "texte":[
-              "Les comptes pour les responsables et les utilisateurs de la plateforme distributeur « ny volako » sont utilisés uniquement pour accéder dans la plateforme distributeur.",
-              "En effet, la plateforme est un site internet accessible à partir des navigateurs web, de préférence google chrome à partir de la version 73. Et le matériel informatique à utiliser peut être un ordinateur, une tablette ou un smartphone fonctionnant avec Android avec un écran minimum de 5 pouces pour une visualisation optimale."
-            ]
-          },
-          {
-            "sousTitre":"",
-            "image":"2"
+        },
+        {
+          "numero": "2",
+          "sousTitre": "PRESENTATION DES RUBRIQUES COMMUNES DES OPERATIONS",
+          "image": {
+            "rang": 3,
+            "nom": 7
           }
-        ]
-      },
-      {
-        "titre":"QUELQUES ETAPES POUR ACCEDER DANS LA PLATEFORME",
-        "numero":"V",
-        "contenu":[
-          {
-            "sousTitre":"",
-            "image":"",
-            "texte":[
-              "- Une fois le distributeur créé, vous aurez automatiquement un e-mail, contenant le lien sécurisé de « ny volako », votre login ainsi qu’un mot de passe par défaut.",
-              "- Le message dans votre e-mail se présente comme ci-dessous"
-            ]
+        }
+      ]
+    },
+    {
+      "titre": "LES TYPES D’OPERATIONS CHEZ LES GUICHETS DISTRIBUTEUR « NY VOLAKO ».",
+      "numero": "VII",
+      "contenu": [
+        {
+          "sousTitre": "",
+          "image": "",
+          "texte": [
+            "Il existe trois types d’opérations essentielles avec le service « ny volako » auprès des réseaux distributeurs.",
+            "- Créer un compte client",
+            "- Rechargement en espèce d’un compte client (cash in)",
+            "- Retrait d’espèce sur un compte client (cash out)"
+          ]
+        },
+        {
+          "numero": "1",
+          "sousTitre": "Création d’un compte pour client",
+          "image": "",
+          "texte": [
+            "Quelques étapes pour la création d’un compte client :",
+            "- Première étape"
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": {
+            "rang": 1,
+            "nom": 8
           },
-          {
-            "sousTitre":"",
-            "image":"3",
-            "texte":[
-              "- A ce stade, vous êtes invités à ouvrir votre boite e-mail.",
-              "- Cliquez sur ce lien et vous accédez directement dans l’interface du distributeur « ny volako »."
-            ]
+          "texte": [
+            "- Entrer dans la plateforme distributeur ny volako",
+            "- Cliquer sur « GESTION NY VOLAKO » ",
+            "-Cliquer sur le menu « Créer compte »"
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": "",
+          "texte": ["Deuxième étape"]
+        },
+        {
+          "sousTitre": "",
+          "image": {
+            "rang": 2,
+            "nom": 9
           },
-          {
-            "sousTitre":"",
-            "image":"4",
-            "texte":[
-              "- Revenir dans votre boite à mail et sélectionner le login ou « identifiant » fourni par le système et le copier et coller à l’endroit pour le login.",
-              "Puis refaire la même action pour copier le mot de passe, et le coller à l’endroit pour le mot de passe.",
-              "Normalement vous serez invité à changer votre mot de passe dès votre première connexion dans la plateforme, et vous le changez avec votre propre mot de passe.",
-              "Vous devez faire attention de ne pas perdre, d’oublier ou de communiquer à une tierce personne votre login et votre mot de passe. Il est également conseillé d’utiliser le mot de passe qui vous est familier."
-            ]
-          }
-        ]
-      },
-      {
-        "titre":"PRESENTATION DE L’INTERFACE DE LA PLATEFORME DISTRIBUTEUR « NY VOLAKO »ORME",
-        "numero":"VI",
-        "contenu":[
-          {
-            "sousTitre":"",
-            "image":"5"
+          "texte": [
+            "- Renseigner les champs obligatoires par les informations personnelles du titulaire du compte à créer.",
+            "- Cliquer sur valider pour aller à l’étape suivante"
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": "",
+          "texte": ["Troisième étape"]
+        },
+        {
+          "sousTitre": "",
+          "image": {
+            "rang": 3,
+            "nom": 10
           },
-          {
-            "numero":"1",
-            "sousTitre":"PRESENTATION DES RUBRIQUES D’OPERATIONS",
-            "image":"6"
+          "texte": [
+            "- Prendre en photos la pièce d’identité du titulaire en recto et verso.",
+            "- Prendre en photo le titulaire.",
+            "- Valider pour l’enregistrement."
+          ]
+        },
+        {
+          "numero": "2",
+          "sousTitre": "Rechargement d’un compte client « ny volako » ou « CASH-IN »",
+          "image": "",
+          "texte": [
+            "Quelques étapes pour le « cash in » :",
+            "- Première étape :"
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": {
+            "rang": 4,
+            "nom": 11
           },
-          {
-            "numero":"2",
-            "sousTitre":"PRESENTATION DES RUBRIQUES COMMUNES DES OPERATIONS",
-            "image":"7"
-          }
-        ]
-      },
-      {
-        "titre":"LES TYPES D’OPERATIONS CHEZ LES GUICHETS DISTRIBUTEUR « NY VOLAKO ».",
-        "numero":"VII",
-        "contenu":[
-          {
-            "sousTitre":"",
-            "image":"",
-            "texte":[
-              "Il existe trois types d’opérations essentielles avec le service « ny volako » auprès des réseaux distributeurs.",
-              "- Créer un compte client",
-              "- Rechargement en espèce d’un compte client (cash in)",
-              "- Retrait d’espèce sur un compte client (cash out)"
-            ]
+          "texte": [
+            "- Entrer dans la plateforme distributeur « ny volako »",
+            "- Cliquer sur le menu « rechargement / retrait »",
+            "- Cliquer sur « recharge »»"
+          ]
+        },
+        {
+          "image": "",
+          "texte": ["Deuxième étape"]
+        },
+        {
+          "image": {
+            "rang": 5,
+            "nom": 12
           },
-          {
-            "numero":"1",
-            "sousTitre":"Création d’un compte pour client",
-            "image":"",
-            "texte":[
-              "Quelques étapes pour la création d’un compte client :",
-              "- Première étape"
-            ]
+          "texte": [
+            "Taper le numéro de téléphone à recharger.",
+            "Cliquer sur rechercher."
+          ]
+        },
+        {
+          "image": "",
+          "texte": ["Troisième étape"]
+        },
+        {
+          "image": {
+            "rang": 6,
+            "nom": 13
           },
-          {
-            "sousTitre":"",
-            "image":"8",
-            "texte":[
-              "- Entrer dans la plateforme distributeur ny volako",
-              "- Cliquer sur « GESTION NY VOLAKO » ",
-              "-Cliquer sur le menu « Créer compte »"
-            ]
+          "texte": [
+            "Confirmer l’information du titulaire.",
+            "Demander le montant du « cash in ».",
+            "Vérifier le solde actuel du distributeur (en haut à droite) qui devait être supérieur au montant du « cash in ».",
+            "Saisir le montant du rechargement",
+            "Cliquer sur « recharger » pour valider l’opération.",
+            "Saisir le code de validation venant du responsable du distributeur"
+          ]
+        },
+        {
+          "numero": "3",
+          "sousTitre": "Le retrait sur un compte client « NY VOLAKO » ou « CASH-OUT »",
+          "image": "",
+          "texte": [
+            "Quelques étapes pour le « cash out » :",
+            "- Première étape :"
+          ]
+        },
+        {
+          "image": {
+            "rang": 7,
+            "nom": 14
           },
-          {
-            "sousTitre":"",
-            "image":"",
-            "texte":[
-              "Deuxième étape"
-            ]
+          "texte": [
+            "Entrer dans la plateforme distributeur « ny volako »",
+            "-Cliquer sur le menu « rechargement / retrait »",
+            "- Cliquer sur « cash out »"
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": "",
+          "texte": ["-Deuxième étape:"]
+        },
+        {
+          "image": {
+            "rang": 8,
+            "nom": 15
           },
-          {
-            "sousTitre":"",
-            "image":"9",
-            "texte":[
-              "- Renseigner les champs obligatoires par les informations personnelles du titulaire du compte à créer.",
-              "- Cliquer sur valider pour aller à l’étape suivante"
-            ]
+          "texte": [
+            "Taper le numéro de téléphone pour le « cash out ».",
+            "-Cliquer sur « rechercher »."
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": "",
+          "texte": ["-Troisième étape"]
+        },
+        {
+          "image": {
+            "rang": 9,
+            "nom": 16
           },
-          {
-            "sousTitre":"",
-            "image":"",
-            "texte":[
-              "Troisième étape"
-            ]
+          "texte": [
+            "Confirmer l’information du titulaire.",
+            "Demander le montant du « cash out ».",
+            "Pour le cash out il n’est pas nécessaire de vérifier le solde actuel du distributeur (en haut à droite)",
+            "-Saisir le montant du « cash out »",
+            "Cliquer sur « retrait »",
+            "-Saisir le code de validation venant du titulaire du compte ».",
+            "Saisir le Numéro de la pièce d’identité du titulaire",
+            "Valider l’opération »."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "LE REPORTING",
+      "numero": "VIII",
+      "contenu": [
+        {
+          "sousTitre": "",
+          "image": "",
+          "texte": [
+            "La rubrique « reporting » sert à faire des rapprochements de la caisse et la plateforme dans la fin de la journée. Egalement, elle sert à visualiser les opérations effectuées dans la plateforme distributeur « ny volako ».",
+            "Chaque distributeur peut faire un rapprochement de ses caisses, une vérification, un suivi ou un contrôle de ses opérations."
+          ]
+        },
+        {
+          "image": {
+            "rang": 1,
+            "nom": 17
           },
-          {
-            "sousTitre":"",
-            "image":"10",
-            "texte":[
-              "- Prendre en photos la pièce d’identité du titulaire en recto et verso.",
-              "- Prendre en photo le titulaire.",
-              "- Valider pour l’enregistrement."
-            ]
+          "texte": ["Quelques étapes pour le « reporting »", "Première étape :"]
+        },
+        {
+          "image": {
+            "rang": 2,
+            "nom": 18
           },
-          {
-            "numero":"2",
-            "sousTitre":"Rechargement d’un compte client « ny volako » ou « CASH-IN »",
-            "image":"",
-            "texte":[
-              "Quelques étapes pour le « cash in » :",
-              "- Première étape :"
-            ]
+          "texte": [
+            "- Entrer dans la plateforme distributeur « ny volako »",
+            "- Cliquer sur le menu « reporting » ",
+            "Deuxième étape»"
+          ]
+        },
+        {
+          "sousTitre": "",
+          "image": {
+            "rang": 3,
+            "nom": 19
           },
-          {
-            "sousTitre":"",
-            "image":"11",
-            "texte":[
-              "- Entrer dans la plateforme distributeur « ny volako »",
-              "- Cliquer sur le menu « rechargement / retrait »",
-              "- Cliquer sur « recharge »»"
-            ]
+          "texte": ["Cliquer sur l’un du menu dans « reporting »"]
+        },
+        {
+          "numero": "1",
+          "sousTitre": "Pour la transaction du jour",
+          "image": "",
+          "texte": [
+            "Présentation du détail de la plateforme pour la transaction du jour",
+            "- Les opérations du jour s’affichent avec les détails",
+            "- Pour une exportation vers une version « PDF » imprimable, cliquer sur l’icone"
+          ]
+        },
+        {
+          "image": {
+            "rang": 4,
+            "nom": 20
           },
-          {
-            "image":"",
-            "texte":[
-              "Deuxième étape"
-            ]
+          "texte": []
+        },
+        {
+          "numero": "2",
+          "sousTitre": "Pour l’historique de la transaction",
+          "image": "",
+          "texte": [
+            "Présentation de la plateforme pour trouver l’historique de transaction d’un compte identifié par un numéro de téléphone.",
+            "- Renseigner les champs obligatoires",
+            "- Cliquer sur continuer pour visionner les détails"
+          ]
+        },
+        {
+          "image": {
+            "rang": 5,
+            "nom": 21
           },
-          {
-            "image":"12",
-            "texte":[
-              "Taper le numéro de téléphone à recharger.",
-              "Cliquer sur rechercher."
-            ]
+          "texte": []
+        },
+        {
+          "numero": "3",
+          "sousTitre": "Pour les transactions par produit.",
+          "image": "",
+          "texte": [
+            "Présentation de la plateforme pour visionner le nombre de transaction effectuée par produit.",
+            "- Renseigner le nom du produit à visionner (cash in /cash out /…)",
+            "- Renseigner les dates début et la date fin de la transaction",
+            "- Cliquer sur « continuer » pour visionner les détails."
+          ]
+        },
+        {
+          "image": {
+            "rang": 6,
+            "nom": 22
           },
-          {
-            "image":"",
-            "texte":[
-              "Troisième étape"
-            ]
-          },
-          {
-            "image":"13",
-            "texte":[
-              "Confirmer l’information du titulaire.",
-              "Demander le montant du « cash in ».",
-              "Vérifier le solde actuel du distributeur (en haut à droite) qui devait être supérieur au montant du « cash in ».",
-              "Saisir le montant du rechargement",
-              "Cliquer sur « recharger » pour valider l’opération.",
-              "Saisir le code de validation venant du responsable du distributeur"
-            ]
-          },
-          {
-            "numero":"3",
-            "sousTitre":"Le retrait sur un compte client « NY VOLAKO » ou « CASH-OUT »",
-            "image":"",
-            "texte":[
-              "Quelques étapes pour le « cash out » :",
-              "- Première étape :"
-            ]
-          },
-          {
-            "image":"14",
-            "texte":[
-              "Entrer dans la plateforme distributeur « ny volako »",
-              "-Cliquer sur le menu « rechargement / retrait »",
-              "- Cliquer sur « cash out »"
-            ]
-          },
-          {
-            "sousTitre":"",
-            "image":"",
-            "texte":[
-              "-Deuxième étape:"
-            ]
-          },
-          {
-            "image":"15",
-            "texte":[
-              "Taper le numéro de téléphone pour le « cash out ».",
-              "-Cliquer sur « rechercher »."
-            ]
-          },
-          {
-            "sousTitre":"",
-            "image":"",
-            "texte":[
-              "-Troisième étape"
-            ]
-          },
-          {
-            "image":"16",
-            "texte":[
-              "Confirmer l’information du titulaire.",
-              "Demander le montant du « cash out ».",
-              "Pour le cash out il n’est pas nécessaire de vérifier le solde actuel du distributeur (en haut à droite)",
-              "-Saisir le montant du « cash out »",
-              "Cliquer sur « retrait »",
-              "-Saisir le code de validation venant du titulaire du compte ».",
-              "Saisir le Numéro de la pièce d’identité du titulaire",
-              "Valider l’opération »."
-            ]
-          }
-        ]
-      },
-      {
-        "titre":"LE REPORTING",
-        "numero":"VIII",
-        "contenu":[
-          {
-            "sousTitre":"",
-            "image":"",
-            "texte":[
-              "La rubrique « reporting » sert à faire des rapprochements de la caisse et la plateforme dans la fin de la journée. Egalement, elle sert à visualiser les opérations effectuées dans la plateforme distributeur « ny volako ».",
-              "Chaque distributeur peut faire un rapprochement de ses caisses, une vérification, un suivi ou un contrôle de ses opérations."
-            ]
-          },
-          {
-            "image":"17",
-            "texte":[
-              "Quelques étapes pour le « reporting »",
-              "Première étape :"
-            ]
-          },
-          {
-            "image":"18",
-            "texte":[
-              "- Entrer dans la plateforme distributeur « ny volako »",
-              "- Cliquer sur le menu « reporting » ",
-              "Deuxième étape»"
-            ]
-          },
-          {
-            "sousTitre":"",
-            "image":"19",
-            "texte":[
-              "Cliquer sur l’un du menu dans « reporting »"
-            ]
-          },
-          {
-            "numero":"1",
-            "sousTitre":"Pour la transaction du jour",
-            "image":"",
-            "texte":[
-              "Présentation du détail de la plateforme pour la transaction du jour",
-              "- Les opérations du jour s’affichent avec les détails",
-              "- Pour une exportation vers une version « PDF » imprimable, cliquer sur l’icone"
-            ]
-          },
-          {
-            "image":"20",
-            "texte":[
-              
-            ]
-          },
-          {
-            "numero":"2",
-            "sousTitre":"Pour l’historique de la transaction",
-            "image":"",
-            "texte":[
-              "Présentation de la plateforme pour trouver l’historique de transaction d’un compte identifié par un numéro de téléphone.",
-              "- Renseigner les champs obligatoires",
-              "- Cliquer sur continuer pour visionner les détails"
-            ]
-          },
-          {
-            "image":"21",
-            "texte":[
-              
-            ]
-          },
-          {
-            "numero":"3",
-            "sousTitre":"Pour les transactions par produit.",
-            "image":"",
-            "texte":[
-              "Présentation de la plateforme pour visionner le nombre de transaction effectuée par produit.",
-              "- Renseigner le nom du produit à visionner (cash in /cash out /…)",
-              "- Renseigner les dates début et la date fin de la transaction",
-              "- Cliquer sur « continuer » pour visionner les détails."
-            ]
-          },
-          {
-            "image":"22",
-            "texte":[
-              
-            ]
-          },
-          {
-            "titre":"CONCLUSION",
-            "numero":"IX",
-            "contenu":[
-              {
-                "image":"",
-                "texte":[
-                  "Ce manuel constitue une vue d’ensemble de la spécificité de la plateforme dédiée au distributeur, ce guide cherche généralement à faciliter la manipulation de l’applicatif. Il englobe les fonctionnalités présentes au niveau de la production chez les distributeurs : de la création de compte, en passant par le CASH-IN et le CASH-OUT pour se déduire finalement vers le « Reporting » qui est indispensable pour le rapprochement et l’arrêtage de la fin de journée d’un distributeur.",
-                  "Cette dernière rubrique constitue également un moyen important pour les différents types de contrôle ou de monitoring.",
-                  "En somme, ces éléments sont présentés dans le but de faciliter la compréhension de l’utilisation et la manipulation de la plateforme distributeur « ny volako »."
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+          "texte": []
+        },
+        {
+          "titre": "CONCLUSION",
+          "numero": "IX",
+          "contenu": [
+            {
+              "image": "",
+              "texte": [
+                "Ce manuel constitue une vue d’ensemble de la spécificité de la plateforme dédiée au distributeur, ce guide cherche généralement à faciliter la manipulation de l’applicatif. Il englobe les fonctionnalités présentes au niveau de la production chez les distributeurs : de la création de compte, en passant par le CASH-IN et le CASH-OUT pour se déduire finalement vers le « Reporting » qui est indispensable pour le rapprochement et l’arrêtage de la fin de journée d’un distributeur.",
+                "Cette dernière rubrique constitue également un moyen important pour les différents types de contrôle ou de monitoring.",
+                "En somme, ces éléments sont présentés dans le but de faciliter la compréhension de l’utilisation et la manipulation de la plateforme distributeur « ny volako »."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

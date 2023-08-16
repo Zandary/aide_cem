@@ -12,9 +12,11 @@ function App() {
       <div className="App">
       <Header />
         <Routes> 
-          <Route path='/articles/:id' element={<Article />} />
+          <Route path='/articles/nyvolako/:id' element={<Article platform="nyvolako"/>} />
+          <Route path='/articles/sunupay/:id' element={<Article platform="sunupay"/>} />
           <Route path='/' element={<Platforms />} />
-          <Route path='/article/nyvolako' element={<Home />} />
+          <Route path='/menu/nyvolako' element={<Home platform="nyvolako"/>} />
+          <Route path='/menu/sunupay' element={<Home platform="sunupay"/>} />
         </Routes>
       </div>
     </Router>

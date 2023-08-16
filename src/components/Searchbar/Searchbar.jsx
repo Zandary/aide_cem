@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import data from "../../data.json";
 import { Link } from "react-router-dom";
 
-const Searchbar = () => {
+const Searchbar = (props) => {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
@@ -14,20 +13,24 @@ const Searchbar = () => {
 
     const results = [];
 
-    for (let i = 0; i < data.article.length; i++) {
-      for (let j = 0; j < data.article[i].contenu.length; j++) {
-        if (data.article[i].contenu[j].texte) {
-          for (let k = 0; k < data.article[i].contenu[j].texte.length; k++) {
-            const element = data.article[i].contenu[j].texte[k];
+    for (let i = 0; i < props.dataSource.article.length; i++) {
+      for (let j = 0; j < props.dataSource.article[i].contenu.length; j++) {
+        if (props.dataSource.article[i].contenu[j].texte) {
+          for (
+            let k = 0;
+            k < props.dataSource.article[i].contenu[j].texte.length;
+            k++
+          ) {
+            const element = props.dataSource.article[i].contenu[j].texte[k];
 
             if (
               element.toLowerCase().includes(searchQuery.toLowerCase()) &&
               searchQuery !== ""
             ) {
               results.push({
-                numero: data.article[i].numero,
-                title: data.article[i].titre,
-                content: data.article[i].contenu[j].texte[k],
+                numero: props.dataSource.article[i].numero,
+                title: props.dataSource.article[i].titre,
+                content: props.dataSource.article[i].contenu[j].texte[k],
                 precision: element.length,
               });
             }
@@ -38,7 +41,7 @@ const Searchbar = () => {
 
     results.sort((a, b) => b.precision - a.precision);
     setSearchResults(results);
-  }, [searchQuery]);
+  }, [searchQuery, props.dataSource]);
 
   return (
     <div>
@@ -46,7 +49,7 @@ const Searchbar = () => {
         <input
           type="text"
           className="form-control searchbar"
-          placeholder="Entrez un mot clé..."
+          placeholder="Enter a keyword..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value.toLowerCase())}
         />
@@ -55,7 +58,7 @@ const Searchbar = () => {
         {searchResults.map((result, index) => (
           <Link
             key={index}
-            to={`/articles/${result.numero}`}
+            to={`/articles/${props.platform}/${result.numero}/`}
             className="list-group-item"
           >
             <p>

@@ -42,7 +42,10 @@
                     ]
                 },
                 {
-                    "image": "1",
+                    "image": {
+                        "rang": 1,
+                        "nom": 1
+                    },
                     "texte": []
                 }
             ]
@@ -72,7 +75,10 @@
                     ]
                 },
                 {
-                    "image": "2"
+                    "image": {
+                        "rang": 1,
+                        "nom": 2
+                    }
                 }
             ]
         },
@@ -106,7 +112,10 @@
                     ]
                 },
                 {
-                    "image": "3"
+                    "image": {
+                        "rang": 1,
+                        "nom": 3
+                    }
                 }
             ]
         },
@@ -128,20 +137,29 @@
                     ]
                 },
                 {
-                    "image": "4",
+                    "image": {
+                        "rang": 1,
+                        "nom": 4
+                    },
                     "texte": [
                         "Dans la zone A, l’initiateur peut effectuer des recherches de comptes NY VOLAKO à partir du prénom ou le nom du titulaire.",
                         "Pour enrôler un employé, cliquer sur le lien « Enrôler un employé » de la zone B. Ce lien mène vers la recherche du N° de téléphone rattaché à un compte NY VOLAKO comme présente la figure ci-dessous"
                     ]
                 },
                 {
-                    "image": "5",
+                    "image": {
+                        "rang": 2,
+                        "nom": 5
+                    },
                     "texte": [
                         "Ici, l’initiateur est invité à saisir le Numéro de téléphone rattaché au compte NY VOLAKO. Le clic sur le bouton « Rechercher » permet d’avoir les informations concernant l’employé à enrôler"
                     ]
                 },
                 {
-                    "image": "6",
+                    "image": {
+                        "rang": 3,
+                        "nom": 6
+                    },
                     "texte": [
                         "Pour finaliser l’enrôlement, cliquer sur le bouton « Enregistrer »"
                     ]
@@ -160,7 +178,10 @@
                     ]
                 },
                 {
-                    "image": "7",
+                    "image": {
+                        "rang": 1,
+                        "nom": 7
+                    },
                     "texte": [
                         "Pour créer ou réutiliser ce fichier :",
                         "- Ouvrir le fichier enrolement_masse_employe_sunupaye.csv",
@@ -169,25 +190,37 @@
                     ]
                 },
                 {
-                    "image": "8",
+                    "image": {
+                        "rang": 2,
+                        "nom": 8
+                    },
                     "texte": [
                         "- Pour changer le format, clic droit sur la colonne A / Format de cellule / Dans l’onglet nombre choisir spécial / zip code. Comme dans la figure ci-dessous"
                     ]
                 },
                 {
-                    "image": "9",
+                    "image": {
+                        "rang": 3,
+                        "nom": 9
+                    },
                     "texte": [
                         "- L’affichage des numéros de téléphone devient plus lisible comme présente dans la figure suivante :"
                     ]
                 },
                 {
-                    "image": "10",
+                    "image": {
+                        "rang": 4,
+                        "nom": 10
+                    },
                     "texte": [
                         "-Après la vérification visuelle du contenu du fichier, sauvegarder le fichier par la composition des touches CTRL + S, ou à partir du menu Fichier / Enregistrer. Une boîte de confirmation s’ouvrira pour demander si l’opérateur souhaite garder le format en CSV."
                     ]
                 },
                 {
-                    "image": "11",
+                    "image": {
+                        "rang": 5,
+                        "nom": 11
+                    },
                     "texte": [
                         "- Cliquer sur le bouton « Oui »",
                         "- Fermer le fichier enrolement_masse_employe_sunupaye.csv",
@@ -195,58 +228,85 @@
                     ]
                 },
                 {
-                    "image": "12",
+                    "image": {
+                        "rang": 6,
+                        "nom": 12
+                    },
                     "texte": [
                         "- Le clic sur le bouton « Enregistrer » emmène à afficher l’emplacement du fichier dans l’ordinateur :"
                     ]
                 },
                 {
-                    "image": "13",
+                    "image": {
+                        "rang": 7,
+                        "nom": 13
+                    },
                     "texte": [
                         "- Il est recommandé que l’opérateur place le fichier dans un nouveau répertoire sinon il peut également remplacer le fichier déjà existant. Pour ce dernier cas, après le clic sur le bouton « Enregistrer », une nouvelle boîte de dialogue s’affiche pour demander une confirmation du remplacement du fichier."
                     ]
                 },
                 {
-                    "image": "14",
+                    "image": {
+                        "rang": 8,
+                        "nom": 14
+                    },
                     "texte": [
                         "- Le clic sur le bouton « Oui » ramène la nouvelle boîte de confirmation suivante :"
                     ]
                 },
                 {
-                    "image": "15",
+                    "image": {
+                        "rang": 9,
+                        "nom": 15
+                    },
                     "texte": [
                         "- Le clic sur le bouton « Oui » ferme le fichier enrolement_masse_employe_sunupaye.csv",
                         "- Dans la plateforme SUNUPAYE, diriger vers le menu GESTION EMPLOYE / ENROLER EMPLOYE PAR LOT, la page suivante s’affiche"
                     ]
                 },
                 {
-                    "image": "16",
+                    "image": {
+                        "rang": 10,
+                        "nom": 16
+                    },
                     "texte": [
                         "- Cliquer sur le bouton « Choose file » et choisir l’emplacement du fichier enrolement_masse_employe_sunupaye.csv et l’ouvrir."
                     ]
                 },
                 {
-                    "image": "17",
+                    "image": {
+                        "rang": 11,
+                        "nom": 17
+                    },
                     "texte": [
                         "- Cliquer sur le bouton « Charger le fichier »",
                         "- En cas de succès, la page récapitulant le contenu du fichier s’affiche."
                     ]
                 },
                 {
-                    "image": "18",
+                    "image": {
+                        "rang": 12,
+                        "nom": 18
+                    },
                     "texte": [
                         "Interprétation de cette page :"
                     ]
                 },
                 {
-                    "image": "19",
+                    "image": {
+                        "rang": 13,
+                        "nom": 19
+                    },
                     "texte": [
                         "- Cliquer sur le bouton « Enregistrer » pour enrôler seulement la liste des téléphones corrects. Ou  cliquer sur « Annuler » et réviser le contenu du fichier enrolement_masse_employe_sunupaye.csv et refaire toute l’opération de ce paragraphe 8.",
                         "- Après le clic du bouton « Enregistrer », une page de récapitulation s’affiche de nouveau"
                     ]
                 },
                 {
-                    "image": "20",
+                    "image": {
+                        "rang": 14,
+                        "nom": 20
+                    },
                     "texte": [
                         "- L’opérateur pourra vérifier la liste des employés enrôlés dans le menu LISTE DES EMPLOYES."
                     ]
@@ -265,25 +325,37 @@
                     ]
                 },
                 {
-                    "image": "21",
+                    "image": {
+                        "rang": 1,
+                        "nom": 21
+                    },
                     "texte": [
                         "Ici, l’initiateur est invité à saisir le Numéro de téléphone rattaché au compte NY VOLAKO d’un employé déjà enrôlé. Le clic sur le bouton « Rechercher » permet d’avoir les informations concernant le compte  NY VOLAKO à créditer comme présente dans la figure ci-dessous"
                     ]
                 },
                 {
-                    "image": "22",
+                    "image": {
+                        "rang": 2,
+                        "nom": 22
+                    },
                     "texte": [
                         "C’est dans ce champ Montant que l’initiateur saisi le montant à créditer sur le compte NY VOLAKO de l’employé. Une boîte de confirmation s’affiche après le clic sur le bouton « Valider »"
                     ]
                 },
                 {
-                    "image": "23",
+                    "image": {
+                        "rang": 3,
+                        "nom": 23
+                    },
                     "texte": [
                         "Le clic sur le bouton « Oui » finalise l’opération et un SMS de notification est envoyé au téléphone identifiant du compte NY VOLAKO. Egalement, SUNUPAYE affiche une notification mentionnant la réussite de l’opération."
                     ]
                 },
                 {
-                    "image": "24",
+                    "image": {
+                        "rang": 4,
+                        "nom": 24
+                    },
                     "texte": []
                 }
             ]
@@ -300,7 +372,10 @@
                     ]
                 },
                 {
-                    "image": "25",
+                    "image": {
+                        "rang": 1,
+                        "nom": 25
+                    },
                     "texte": [
                         " Pour créer ou réutiliser ce fichier :",
                         "- Ouvrir le fichier crediter_masse_employe_sunupaye.csv",
@@ -309,13 +384,19 @@
                     ]
                 },
                 {
-                    "image": "26",
+                    "image": {
+                        "rang": 2,
+                        "nom": 26
+                    },
                     "texte": [
                         "- Après la vérification visuelle du contenu du fichier, sauvegarder le fichier par la composition des touches CTRL + S, ou à partir du menu Fichier / Enregistrer. Une boîte de confirmation s’ouvrira pour demander si l’opérateur souhaite garder le format en CSV."
                     ]
                 },
                 {
-                    "image": "27",
+                    "image": {
+                        "rang": 3,
+                        "nom": 27
+                    },
                     "texte": [
                         "- Cliquer sur le bouton « Oui »",
                         "- Fermer le fichier crediter_masse_employe_sunupaye.csv",
@@ -323,52 +404,76 @@
                     ]
                 },
                 {
-                    "image": "28",
+                    "image": {
+                        "rang": 4,
+                        "nom": 28
+                    },
                     "texte": [
                         "- Le clic sur le bouton « Enregistrer » emmène à afficher l’emplacement du fichier dans l’ordinateur :"
                     ]
                 },
                 {
-                    "image": "29",
+                    "image": {
+                        "rang": 5,
+                        "nom": 29
+                    },
                     "texte": [
                         "- Il est recommandé que l’opérateur place le fichier dans un nouveau répertoire sinon il peut également remplacer le fichier déjà existant. Pour ce dernier cas, après le clic sur le bouton « Enregistrer », une nouvelle boîte de dialogue s’affiche pour demander une confirmation de  remplacement du fichier."
                     ]
                 },
                 {
-                    "image": "30",
+                    "image": {
+                        "rang": 6,
+                        "nom": 30
+                    },
                     "texte": [
                         "- Le clic sur le bouton « Oui » ramène la nouvelle boîte de confirmation suivante :"
                     ]
                 },
                 {
-                    "image": "31",
+                    "image": {
+                        "rang": 7,
+                        "nom": 31
+                    },
                     "texte": [
                         "- Le clic sur le bouton « Oui » ferme le fichier crediter_masse_employe_sunupaye.csv",
                         "- Dans la plateforme SUNUPAYE, diriger au menu GESTION CARTE EMPLOYE / CREDITER CARTE PAR LOT, la page suivante s’affiche"
                     ]
                 },
                 {
-                    "image": "32",
+                    "image": {
+                        "rang": 8,
+                        "nom": 32
+                    },
                     "texte": [
                         "- Cliquer sur le bouton « Choose file » et choisir l’emplacement du fichier crediter_masse_employe_sunupaye.csv et l’ouvrir."
                     ]
                 },
                 {
-                    "image": "33",
+                    "image": {
+                        "rang": 9,
+                        "nom": 33
+                    },
                     "texte": [
                         "- Cliquer sur le bouton « Charger le fichier ».",
                         "- En cas de succès, la page récapitulant le contenu du fichier s’affiche."
                     ]
                 },
                 {
-                    "image": "34",
+                    "image": {
+                        "rang": 10,
+                        "nom": 34
+                    },
                     "texte": [
                         "- Cliquer sur le bouton « Valider » pour créditer les comptes NY VOLAKO, seulement la liste des comptes à insérer. Ou cliquer sur « Retour » et réviser le contenu du fichier crediter_masse_employe_sunupaye.csv et refaire toute l’opération de ce paragraphe 10.",
                         "- Après le clic du bouton « Valider », une page de récapitulation s’affiche de nouveau"
                     ]
                 },
                 {
-                    "image": "35",
+                    "image": {
+                        "rang": 11,
+                        "nom": 35
+                    },
                     "texte": [
                         "- LDes SMS notifiant les comptes crédités sont envoyés aux numéros téléphones des comptes NY VOLAKO concernés.",
                         "- L’opérateur pourra vérifier la liste des comptes NY VOLAKO crédités dans le menu HISTORIQUE DES TRANSACTIONS."
@@ -388,7 +493,10 @@
                     ]
                 },
                 {
-                    "image": "36",
+                    "image": {
+                        "rang": 1,
+                        "nom": 36
+                    },
                     "texte": [
                         "La zone A est dédiée pour la recherche des transactions entre deux dates. Par défaut, ces champs sont renseignés par la date du jour.",
                         "La zone B permet d’exporter le résultat au format PDF."
@@ -407,13 +515,19 @@
                     ]
                 },
                 {
-                    "image": "37",
+                    "image": {
+                        "rang": 1,
+                        "nom": 37
+                    },
                     "texte": [
                         "La zone B permet d’exporter le résultat au format PDF."
                     ]
                 },
                 {
-                    "image": "38",
+                    "image": {
+                        "rang": 2,
+                        "nom": 38
+                    },
                     "texte": [
                         "Le choix de scénario ou d’en adopter un nouveau est laissé au soin du service de l’organisation, mais en attendant"
                     ]

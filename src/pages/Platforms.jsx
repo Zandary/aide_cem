@@ -15,12 +15,12 @@ const Platforms = () => {
       </p>
       <div className="btns">
         <button className="btn btn-danger">
-          <Link to={`/article/nyvolako`}>
+          <Link to={`/menu/nyvolako`}>
             <div>Ny Volako</div>
           </Link>
         </button>
         <button className="btn btn-danger">
-          <Link to={`/article/sunupay`}>
+          <Link to={`/menu/sunupay`}>
             <div>SUNUPAY</div>
           </Link>
         </button>
