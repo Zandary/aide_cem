@@ -45,7 +45,7 @@ const Article = (props) => {
                   <img
                     src={
                       props.platform === "sunupay"
-                        ? `/sunopay image/${article.contenu[key].image}.png`
+                        ? `/sunopay image/${article.contenu[key].image.nom}.png`
                         : `/images/${article.contenu[key].image.nom}.png`
                     }
                     alt={key}

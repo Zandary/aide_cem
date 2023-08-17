@@ -1,26 +1,43 @@
 import React, { useState, useEffect } from "react";
 import Menu from "./Menu";
 import Searchbar from "../components/Searchbar/Searchbar";
-import data from "../data.json";
-import data2 from "../data2.json";
+// import data from "../data.json";
+// import data2 from "../data2.json";
+import axios from "axios";
 
 const Home = (props) => {
-  const [dataSource, setDataSource] = useState(data);
+  const [dataSource, setDataSource] = useState([]);
 
   useEffect(() => {
     if (props.platform === "nyvolako") {
-      setDataSource(data);
-    } else if (props.platform === "sunupay") {
-      setDataSource(data2);
+      axios.get("https://aide-cem-server.onrender.com/nyvolako")
+      .then(response => {
+        setDataSource(response.data);
+        console.log(dataSource[0], typeof response.data)
+      })
+      .catch(error => {
+        console.log(error);
+      });
     } else {
-      setDataSource(data);
+      axios.get("https://aide-cem-server.onrender.com/sunupay")
+      .then(response => {
+        setDataSource(response.data);
+        console.log(dataSource[0], typeof response.data)
+      })
+      .catch(error => {
+        console.log(error);
+      });
     }
-  }, [props.platform]);
+    
+  }, []);
 
-  console.log(props.platform, dataSource);
+  if (dataSource.length === 0) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <div>
-      <Searchbar dataSource={dataSource} platform={props.platform} />
+      <Searchbar platform={props.platform} dataSource={dataSource}/>
       <Menu platform={props.platform} dataSource={dataSource} />
     </div>
   );

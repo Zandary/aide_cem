@@ -1,26 +1,33 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Menu = (props) => {
-  const [articles, setArticles] = useState([]);
+  // const [articles, setArticles] = useState([]);
 
-  useEffect(() => {
-    setArticles(props.dataSource.article);
-  }, [props.dataSource]);
+  // useEffect(() => {
+  //   console.log("dataSource   :  ", props.dataSource)
+  //     setArticles(props.dataSource.article);
+  //     console.log("articles   :  ", props.dataSource.article)
 
-  useEffect(() => {
-    setArticles(props.dataSource.article);
-  }, [props.platform]);
+  // }, [props.dataSource]);
+
+  // useEffect(() => {
+  //   setArticles(props.dataSource.article);
+  // }, [props.platform]);
+
+  if (props.dataSource.length === 0) {
+    return <div>No data available</div>;
+  }
 
   return (
     <div className="list-group rounded">
-      {articles.map((article) => (
+ {Object.keys(props.dataSource).map((key) => (
         <Link
-          key={article.numero}
-          to={`/articles/${props.platform}/${article.numero}`}
+          key={props.dataSource[key].numero}
+          to={`/articles/${props.platform}/${props.dataSource[key].numero}`}
         >
           <div className="list-group-item">
-            {article.numero} - {article.titre}
+            {props.dataSource[key].numero} - {props.dataSource[key].titre}
           </div>
         </Link>
       ))}
