@@ -7,6 +7,8 @@ const Article = (props) => {
   const { id } = useParams();
   const [dataSource, setDataSource] = useState(data);
 
+  // Test merge from experimental
+
   useEffect(() => {
     if (props.platform === "nyvolako") {
       console.log("set platform to:    ", props.platform);
