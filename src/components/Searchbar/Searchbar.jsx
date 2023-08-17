@@ -11,26 +11,29 @@ const Searchbar = (props) => {
       return;
     }
 
+console.log("from searchbar    ", props.dataSource)
+
     const results = [];
 
-    for (let i = 0; i < props.dataSource.article.length; i++) {
-      for (let j = 0; j < props.dataSource.article[i].contenu.length; j++) {
-        if (props.dataSource.article[i].contenu[j].texte) {
+    for (let i = 0; i < props.dataSource.length; i++) {
+    
+      for (let j = 0; j < props.dataSource[i].contenu.length; j++) {
+        if (props.dataSource[i].contenu[j].texte) {
           for (
             let k = 0;
-            k < props.dataSource.article[i].contenu[j].texte.length;
+            k < props.dataSource[i].contenu[j].texte.length;
             k++
           ) {
-            const element = props.dataSource.article[i].contenu[j].texte[k];
+            const element = props.dataSource[i].contenu[j].texte[k];
 
             if (
               element.toLowerCase().includes(searchQuery.toLowerCase()) &&
               searchQuery !== ""
             ) {
               results.push({
-                numero: props.dataSource.article[i].numero,
-                title: props.dataSource.article[i].titre,
-                content: props.dataSource.article[i].contenu[j].texte[k],
+                numero: props.dataSource[i].numero,
+                title: props.dataSource[i].titre,
+                content: props.dataSource[i].contenu[j].texte[k],
                 precision: element.length,
               });
             }
