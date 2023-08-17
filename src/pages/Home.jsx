@@ -31,7 +31,21 @@ const Home = (props) => {
   }, []);
 
   if (dataSource.length === 0) {
-    return <div>Loading...</div>;
+    return <div><div
+    style={{
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      height: "100vh",
+    }}
+  >
+    <div className="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div></div>;
   }
 
   return (
